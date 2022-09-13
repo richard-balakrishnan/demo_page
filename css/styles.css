@@ -1,0 +1,117 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn.btn-brand, .btn.btn-brand:hover{
+    color: #ffffff;
+    background-color: #FF4800;
+}
+.btn.btn-brand:hover{
+    color: #ffffff;
+    background-color: #f95312;
+}
+
+.embedded_img{
+    height: 100px;
+    width: 100px;
+}
+
+#header_section{
+    background-image: linear-gradient(89.97deg, #efeaf3 0.02%, #F5F3FC 53.03%, #F2F1FE 99.97%);
+    padding-top: 50px;
+}
+
+#header_section #content_group{
+    padding: 90px;
+}
+
+#header_section #content_group #content_primary{
+    font-size: 48px;
+    font-weight: 700;
+    color: #334155;
+}
+
+#header_section #content_group #content_secondary{
+    font-weight: 400;
+    color: #4F4F4F;
+    font-size: 18px;
+}
+
+#solution_section #solution_card{
+    padding: 70px 0 0 0;
+}
+
+#solution_section #solution_card #solution_title{
+    padding-top: 70px;
+}
+
+#solution_section #solution_card #solution_content{
+    font-weight: 400;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+#solution_section #solution_card #solution_image{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0px 0px 35px 6px rgba(121, 110, 253, 0.1);
+    border-radius: 8px;
+}
+
+#embedded_section #embedded_js{
+    background: #FFFAF5;
+    border: 1px solid #E1E1E1;
+    box-shadow: 0px 10px 48px rgba(121, 110, 253, 0.1);
+    border-radius: 8px;
+}
+
+#embedded_section #embedded_ng{
+    background: #EDFAFF;
+    border: 1px solid #E1E1E1;
+    border-radius: 8px;
+}
+
+#embedded_section #embedded_react{
+    background: #FFF2FB;
+    border: 1px solid #E1E1E1;
+    border-radius: 8px;
+}
+
+#embedded_section #embedded_blazor{
+    background: #F4F7FF;
+    border: 1px solid #E1E1E1;
+    border-radius: 8px;
+}
+
+#embedded_section #embedded_core{
+    background: #E4F9F6;
+    border: 1px solid #E1E1E1;
+    border-radius: 8px;
+}
+
+#embedded_section #embedded_mvc{
+    background: #FFEEE8;
+    border: 1px solid #E1E1E1;
+    border-radius: 8px;
+}
+
+#server_section{
+    padding: 70px 0 0 0;
+}
+
+#server_section #server_card #server_title{
+    padding-top: 70px;
+}
+
+#server_section #server_card #server_content{
+    font-weight: 400;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+
+#server_section #server_card #server_image{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0px 0px 35px 6px rgba(121, 110, 253, 0.1);
+    border-radius: 8px;
+}
