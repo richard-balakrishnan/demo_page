@@ -1,11 +1,17 @@
 var toggler = document.getElementsByClassName('navbar-toggler')[0];
 var nav = document.getElementsByClassName('navbar');
 var mybutton = document.getElementById("backToTop");
+var backToTop = document.getElementsByClassName('backToTop')[0];
 
 toggler.addEventListener('click', function () {
     var toggler_dataset = this.dataset['bsTarget'].replace('#', '');
     var sideToggleElement = document.getElementById(toggler_dataset);
     sideToggleElement.classList.toggle("open");
+});
+
+backToTop.addEventListener('click', function () {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 });
 
 window.onscroll = function () { scrollToTopEnableFunction(); navHighlightEnableFunction(); };
