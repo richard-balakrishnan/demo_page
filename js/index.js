@@ -3,6 +3,10 @@ var nav = document.getElementsByClassName('navbar');
 var mybutton = document.getElementById("backToTop");
 var backToTop = document.getElementsByClassName('backToTop')[0];
 
+document.addEventListener('DOMContentLoaded', function(){
+    navHighlightEnableFunction();
+})
+
 toggler.addEventListener('click', function () {
     var toggler_dataset = this.dataset['bsTarget'].replace('#', '');
     var sideToggleElement = document.getElementById(toggler_dataset);
@@ -19,7 +23,7 @@ window.onscroll = function () { scrollToTopEnableFunction(); navHighlightEnableF
 
 function navHighlightEnableFunction() {
     if (window.pageYOffset < 10) {
-        nav[0].style.backgroundColor = "transparent";
+        nav[0].style.backgroundColor = "#fff1e7";
         nav[0].style.boxShadow = "none";
     }
     else {
